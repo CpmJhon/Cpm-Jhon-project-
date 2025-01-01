@@ -1,5 +1,8 @@
-echo '{
+{
   "rewrites": [
-    { "source": "/key.js", "destination": "/key.js" }
+    {
+      "source": "/key.js",
+      "destination": "/key.js"
+    }
   ]
-}' > vercel.json
+}
